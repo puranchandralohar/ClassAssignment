@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input-group{
+    /* border:1px solid black; */
+    margin: 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-group input{
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.btn{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    padding: 20px;
+    margin:20px;
+    height:500px;
+    width:600px;
+    border:1px solid black;
+    overflow: scroll;
+}
+
+.content img{
+    width:250px;
+    height:200px;
+}
